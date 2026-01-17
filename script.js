@@ -20,8 +20,7 @@ function onResults(results) {
 
       // 1. นับนิ้วชี้, กลาง, นาง, ก้อย (ใช้ความสูง)
       const fingerTips = [8, 12, 16, 20];
-      fingerTips.forEach(tip => {
-        if (landmarks[tip].y < landmarks[tip - 2].y) {
+      fin
           count++;
         }
       });
